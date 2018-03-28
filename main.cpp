@@ -18,7 +18,6 @@ struct tcphdr *tcph;
 
 void callback(u_char *useless, const struct pcap_pkthdr *pkthdr, const u_char *packet);
 void print_Mac_Add(u_int8_t *addr);
-int lengthRet(int length, int minusLen);
 
 int main(int argc, char* argv[]){
 
