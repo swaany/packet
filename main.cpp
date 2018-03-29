@@ -56,7 +56,7 @@ void callback(u_char *useless, const struct pcap_pkthdr *pkthdr, const u_char *p
             cout<<"Dst port : "<<ntohs(tcph->dest)<<endl;
             cout<<endl<<endl;
             
-            length -= sizeof(tcphdr);
+           // length -= sizeof(tcphdr);
         }
     }
 }
